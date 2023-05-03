@@ -1,0 +1,189 @@
+body{
+	font-family: Agency FB;
+	background-image: url("../img/bg.jpg");
+}
+
+/*-- nav --*/
+
+.nav-wrapper{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	width: 100%;
+}
+
+.main-header{
+	background: black;
+	height: 85px;
+}
+
+.site-logo img {
+	width: 100px;
+	margin-top: -10px;
+}
+
+.header-nav li{
+	list-style: none;
+	color: gray;
+	display: inline-grid;
+	position: relative;
+	padding: 30px;
+	inline-size: 150px;
+	margin-top: -15px;
+}
+
+.header-nav li a{
+	color: gray;
+	text-decoration: none;
+	font-size: 16px;
+	transition: .5s ease-in ease-out;
+}
+
+.header-nav li a:hover{
+	color: white;
+	font-weight: bold;
+}
+
+.header-nav li ul.dropdown li{
+	display: none;
+}
+
+.header-nav li:hover ul.dropdown li {
+	display: grid;
+	background: black;
+	border: 1px solid black;
+	margin-left: -70px;
+	padding-inline-start: 30px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	margin-top: 1px;
+	transition: .5s ease-in ease-out;
+}
+
+.header-nav li ul.dropdown li:hover{
+	background: whitesmoke;
+	border: none;
+	color: black;
+}
+
+.header-nav li ul.dropdown li a:hover{
+	color: black;
+}
+
+/*-- main-content --*/
+
+#main-content{
+	margin-top: 90px;
+}
+
+.main-page-btn{
+	margin-top: 140px;
+	width: 40%;
+}
+
+.main-page-btn h1{
+	float: right;
+}
+
+.main-page-btn h1 a{
+	background: white;
+	border: 1px solid;
+	box-shadow: 0px 2px 9px black;
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	width: 150px;
+	text-align: center;
+	border-radius: 40px;
+	transition: .5s ease-in ease-out;
+}
+
+.main-page-btn h1 a:hover{
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+
+.homepage-img{
+	display: grid;
+	float: right;
+}
+
+
+.homepage-img img{
+	width: 300px;
+}
+
+/*-- footer --*/
+
+.main-footer{
+	background: black;
+	margin-top: 0px;
+	height: 260px;
+}
+
+.main-footer img{
+	width: 20px;
+}
+
+.record-label, .external-link{
+	margin-top: 10px;
+	width: 35%;
+}
+
+.record-label a, .social-media, .external-link a{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+}
+
+
+.record-label li, .external-link li{
+	display: inline-grid;
+	padding: 10px;
+}
+
+.social-media li{
+	display: inline-grid;
+	padding: 10px;
+	width: 50px;
+}
+
+.social-media{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 25%;
+}
+
+.copyright{
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+.copyright a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+
+.back-to-top {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 200px;
+}
+
+.back-to-top a{
+	text-decoration: none;
+	font-size: 12px;
+	border: 1px solid;
+	border-radius: 40px;
+	color: black;
+	padding: 5px;
+	background: white;
+	font-weight: bold;
+}
